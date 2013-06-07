@@ -1,5 +1,5 @@
 div.pie {
-	background: #363636;
+	background: #363636; 
 	border-radius: 16px; /* half of height / width */
 	height: 32px; /* same as width */
 	margin: 0 auto;
@@ -17,4 +17,4 @@ div.pie div {
 	width: 32px; /* same as height */
 }
 
-div.pie div.fill { background-color: #c30e42; }
+div.pie div.fill { background-color: #c30e42; } /* color of the percentage filled */
