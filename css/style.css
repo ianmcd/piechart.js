@@ -1,0 +1,20 @@
+div.pie {
+	background: #363636;
+	border-radius: 16px; /* half of height / width */
+	height: 32px; /* same as width */
+	margin: 0 auto;
+	position: relative;
+	text-indent: -999em;
+	width: 32px; /* same as height */
+}
+
+div.pie div {
+	border-radius: 16px; /* half of height / width */
+	height: 32px; /* same as width */
+	left: 0px; 
+	position: absolute; 
+	top: 0px; 
+	width: 32px; /* same as height */
+}
+
+div.pie div.fill { background-color: #c30e42; }
