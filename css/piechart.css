@@ -1,0 +1,24 @@
+div.pie {
+	background: #333;
+	border-radius: 100px; /* half of height / width */
+	height: 200px; /* same as width */
+	position: relative;
+	text-indent: -999em;
+	width: 200px; /* same as height */
+}
+
+div.pie div {
+	border-radius: 100px; /* half of height / width */
+	height: 200px; /* same as width */
+	left: 0px; 
+	position: absolute; 
+	top: 0px; 
+	width: 200px; /* same as height */
+}
+
+div.pie div.fill1 { background-color: #cc00cc; } /* fill color for first variable */
+div.pie div.fill2 { background-color: #22cc33; } /* fill color for 2nd variable and so forth. */
+div.pie div.fill3 { background-color: #0088ff; }
+div.pie div.fill4 { background-color: #fb0404; }
+div.pie div.fill5 { background-color: #ffda12; }
+div.pie div.fill6 { background-color: #8fc5f0; }

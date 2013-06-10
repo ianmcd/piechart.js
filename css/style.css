@@ -1,20 +1,60 @@
-div.pie {
-	background: #363636;
-	border-radius: 16px; /* half of height / width */
-	height: 32px; /* same as width */
-	margin: 0 auto;
-	position: relative;
-	text-indent: -999em;
-	width: 32px; /* same as height */
+/* This file is used exclusively for styling the sample/tutorial index.html and is NOT NECESSARY in implementation in your own projects! */
+
+body { 
+	background: #ecebe6;
+	color: #4c4c40;
+	font-family: 'Vollkorn', serif; 
+
 }
 
-div.pie div {
-	border-radius: 16px; /* half of height / width */
-	height: 32px; /* same as width */
-	left: 0px; 
-	position: absolute; 
-	top: 0px; 
-	width: 32px; /* same as height */
+.wrapper { 
+	margin: 1em;
+	width: 660px; }
+
+h1 {
+	color: #f33a1e;
+	font-size: 42px;
+	font-style: italic;
+	margin-bottom: .5em;
 }
 
-div.pie div.fill { background-color: #c30e42; }
+h2 { 
+	color: #f33a1e;
+	font-size: 24px; 
+	text-transform: capitalize;
+}
+
+p, li { 
+	font-size: 15px;
+	line-height: 1.5em;
+}
+
+li { 
+	color: #777;
+	font-style: italic;
+	margin-bottom: .5em;
+}
+
+p strong { margin-right: .5em; }
+
+li strong {
+	color: #4c4c40;
+	display: block;
+	font-weight: 400;
+	font-style: normal;
+}
+
+em { 
+	display:block;
+	color: #777;
+	font-size: 13px;
+	padding: 1em;
+}
+
+code { 
+	border-left: 1px dotted #aaa;
+	display: block;
+	font-size: 12px;
+	margin: .5em 0 .5em 1em;
+	padding-left: 1em;
+}

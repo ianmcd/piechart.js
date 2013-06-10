@@ -1,12 +1,40 @@
 <html>
 	<head>
+		<link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/piechart.css" />
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-		<script src="js/piechart-min.js"></script>
+		<script src="js/piechart.js"></script>
 	</head>
 	<body>
-		<div class="pie" title="28%"> <!-- using class="pie" set the title to desired % -->
-		
+		<div class="wrapper">
+			<h1>piechart.js</h1>
+			<p>piechart.js is an extremely lightweight & simplistic JQuery script for building css3 pie charts on the fly.  This script originally spawned from a script that I created when attempting returning search result relevancy in a creative way.</p>
+			
+			<h2>How to use</h2>
+			<div class="pie" title="8% 11% 6% 35% 25% 15%"></div>
+			<em class="sup">demonstration of piechart.js in action</em>
+			<p>piechart.js is amazingly simple to use!</p>
+			<p><strong>Step 1:</strong> link jquery to relevant pages:
+			<code>&lt;script src="http://code.jquery.com/jquery-latest.min.js"&gt;&lt;/script&gt;</code></p>
+			<p><strong>Step 2:</strong> upload and link piechart.css & piechart.js to relevant pages:
+			<code>&lt;script src="js/piechart.js">&lt;/script&gt;<br />
+			&lt;link rel="stylesheet" type="text/css" href="css/piechart.css" /&gt;</code></p>
+			<p><strong>Step 3:</strong> add the following bit of code to the page to create your first pie chart(seen above):
+			<code>&lt;div class="pie" title="8% 11% 6% 35% 25% 15%"&gt;&lt;/div&gt;</code></p>
+			<p><strong>Step 4:</strong> edit piechart.css to style as you see fit.</p>
+			
+			<h2>Additional Info</h2>
+			<p>piechart.js allows you to input as many variables as you like given that they do not surpass a sum of 100%.  Going beyond 100% will return an error.</p>
+			<p>The .css file is set up for a maximum of 6 variables, if you plan on using more than 6 you will need to add the following code to the css file with a background color of your choosing:
+				<code>div.pie div.fill7 { background-color: #8fc5f0; }</code>
+				fill# corresponds to the variable number on the chart(in this case, 7).  If you wish to have 10+ variables you would need to fill in the blanks for fill7, fill8, fill9, fill10 and so forth.  This is indicated by the comments in piechart.css</p>
+			<p>If at any point you change the class names in piechart.css you will have to do the same in piechart.js to ensure things work correctly.  This will probably change in future versions.</p>
+			<h3>Changelog</h3>
+			<ul>
+				<li><strong>2.0 (06.10.13)</strong>handles multiple variables, added further details to sample index.html, updated readme</li>
+				<li><strong>1.1 (06.07.13)</strong>fixed readme, further commenting to .css file</li>
+				<li><strong>1.0 (06.06.13)</strong>finitial release</li>
 		</div>
 	</body>
 </html>
