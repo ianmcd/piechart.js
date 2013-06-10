@@ -13,7 +13,6 @@ The above assumes you didn't rename the css class in the stylesheet(if you have,
 
 It's that easy.
 
-<<<<<<< HEAD
 Ian McDowell Â· ianmcd@gmail.com Â· http://ianmcd.com
 
 
@@ -25,6 +24,3 @@ changelog
 1.1 (06.07.13) - fixed readme, further commenting to .css file
 
 1.0 (06.06.13) - initial release
-=======
-Ian McDowell · ianmcd@gmail.com · http://ianmcd.com
->>>>>>> 2417cbe4b1c8fe28ea19b0cf5eba3e5748c167f5
