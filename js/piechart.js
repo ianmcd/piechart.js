@@ -1,7 +1,12 @@
-$(function(){
-	if($(".pie")) {
-		$('.pie').each(function(i, obj) {
-			var pcentTot = $(this).attr("title");
+(function($) {
+	$.fn.piechart = function(args){
+		
+		var chart = $.extend({
+			attrib: "title"
+		}, args);
+		
+		this.each(function(i, obj) {
+			var pcentTot = $(this).attr(chart.attrib);
 			pcentTot = pcentTot.replace(/%/g, "");
 			arrPcent = pcentTot.split(" ");
 			var pct = 0;
@@ -33,5 +38,6 @@ $(function(){
 			}
 		$(this).html(newhtml);
 		});
-	}
-});
+		return this;
+	};
+}(jQuery));
