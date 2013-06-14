@@ -5,7 +5,7 @@ piechart.js is an extremely lightweight & simplistic JQuery script for building 
 
 It's very easy to use:
 
-Step 1: link jquery to relevant pages: &lt;script src="http://code.jquery.com/jquery-latest.min.js">&lt;/script>
+Step 1: link jquery to relevant pages: &lt;script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
 Step 2: upload and link piechart.css & piechart.js to relevant pages:
 <script src="js/piechart.js"></script>
