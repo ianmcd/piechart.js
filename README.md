@@ -5,19 +5,20 @@ piechart.js is an extremely lightweight & simplistic JQuery script for building 
 
 It's very easy to use:
 
-Step 1: link jquery to relevant pages: &lt;script src="http://code.jquery.com/jquery-latest.min.js"></script>
+Step 1: link jquery to relevant pages: 
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
 Step 2: upload and link piechart.css & piechart.js to relevant pages:
-<script src="js/piechart.js"></script>
-<link rel="stylesheet" type="text/css" href="css/piechart.css" />
+	<script src="js/piechart.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/piechart.css" />
 
 Step 3: add the following bit of code to the page to create your first pie chart(seen above):
-<div class="pie" title="8% 11% 6% 35% 25% 15%"></div>
+	<div class="pie" title="8% 11% 6% 35% 25% 15%"></div>
 
 Step 4: add the following to the bottom of your html file, right before the closing body tag:
-<script>
-$(".pie").piechart();
-</script>
+	<script>
+		$(".pie").piechart();
+	</script>
 
 Step 5: edit piechart.css to style as you see fit.
 
